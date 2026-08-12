@@ -208,6 +208,28 @@ h6 {
   }
 }
 
+@media (max-width: 575px) {
+  .header .logo h1 {
+    font-size: 20px;
+  }
+  
+  .header .logo img {
+    max-height: 26px;
+    margin-right: 5px;
+  }
+
+  .header .btn-getstarted {
+    padding: 6px 12px;
+    font-size: 13px;
+    margin: 0 10px 0 0;
+  }
+  
+  .mobile-nav-toggle {
+    font-size: 26px;
+    margin-right: 0;
+  }
+}
+
 .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
@@ -778,7 +800,7 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  padding-top: 120px;
+  padding-top: 160px;
   position: relative;
   background: linear-gradient(135deg, color-mix(in srgb, var(--accent-color), transparent 95%) 0%, color-mix(in srgb, var(--surface-color), transparent 0%) 100%);
   overflow: hidden;
@@ -1119,7 +1141,7 @@ section,
 
 @media (max-width: 992px) {
   .hero {
-    padding: 60px 0;
+    padding: 140px 0 60px 0;
   }
 
   .hero .hero-content {
