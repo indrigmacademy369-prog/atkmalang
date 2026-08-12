@@ -1006,6 +1006,8 @@ section,
 .hero .hero-stats .stat-group .stat .stat-text {
   display: flex;
   flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
 }
 
 .hero .hero-stats .stat-group .stat .stat-text .number {
@@ -1042,6 +1044,7 @@ section,
   text-decoration: none;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
 }
 
