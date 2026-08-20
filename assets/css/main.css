@@ -828,16 +828,16 @@ section,
 .hero .hero-image .floating-card {
   position: absolute;
   background-color: var(--surface-color);
-  border-radius: 20px;
-  padding: 1.5rem;
+  border-radius: 15px;
+  padding: 1rem 1.25rem;
   box-shadow: 0 20px 60px color-mix(in srgb, var(--default-color), transparent 85%);
   backdrop-filter: blur(20px);
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 80%);
 }
 
 .hero .hero-image .floating-card.emergency-card {
-  top: 20px;
-  left: -30px;
+  top: -30px;
+  left: -40px;
   z-index: 3;
 }
 
@@ -848,11 +848,11 @@ section,
 }
 
 .hero .hero-image .floating-card.emergency-card .card-content i {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--accent-color);
-  padding: 15px;
+  padding: 10px;
   background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .hero .hero-image .floating-card.emergency-card .card-content .text {
@@ -861,23 +861,23 @@ section,
 }
 
 .hero .hero-image .floating-card.emergency-card .card-content .text .label {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   font-weight: 500;
 }
 
 .hero .hero-image .floating-card.emergency-card .card-content .text .number {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--heading-color);
 }
 
 .hero .hero-image .floating-card.stats-card {
-  bottom: 30px;
-  right: -40px;
+  bottom: -30px;
+  right: -30px;
   z-index: 3;
   display: flex;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .hero .hero-image .floating-card.stats-card .stat-item {
@@ -886,14 +886,14 @@ section,
 
 .hero .hero-image .floating-card.stats-card .stat-item .number {
   display: block;
-  font-size: 1.75rem;
+  font-size: 1.35rem;
   font-weight: 700;
   color: var(--accent-color);
   line-height: 1;
 }
 
 .hero .hero-image .floating-card.stats-card .stat-item .label {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   font-weight: 500;
 }
@@ -6746,4 +6746,28 @@ body.about-page .main {
 .wa-float:hover {
   background-color: #128c7e;
   color: #fff;
+}
+
+/* Custom CSS to align buttons on service cards to the bottom */
+.service-card {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+.service-card .service-image {
+  flex-shrink: 0;
+}
+
+.service-card .service-content,
+.service-content.h-100 {
+  display: flex !important;
+  flex-direction: column !important;
+  flex-grow: 1;
+}
+
+.service-card .service-content > div:last-child,
+.service-content.h-100 > div:last-child,
+.service-card > a.service-link:last-child {
+  margin-top: auto !important;
 }
