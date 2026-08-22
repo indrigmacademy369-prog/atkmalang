@@ -6,9 +6,12 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Printer Laser (Mono/Warna) - ATKMalang</title>
   <meta name="description" content="ATKMalang adalah distributor atk dan toko atk malang terlengkap. Temukan Printer Laser (Mono/Warna) dengan harga terbaik.">
-  <meta name="keywords" content="atk, toko atk, distributor atk, atk malang, Printer Laser (Mono/Warna)">
+  <meta name="keywords" content="atk, toko atk, distributor atk, atk malang, alat tulis kantor, perlengkapan kantor, alat tulis, atk murah">
   <meta name="author" content="ATKMalang">
-  
+  <meta name="publisher" content="ATKMalang">
+  <meta name="audience" content="all">
+  <meta name="subject" content="Alat Tulis Kantor dan Perlengkapan Kantor">
+
   <!-- SEO, AEO & GEO Optimization -->
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -21,6 +24,8 @@
   <meta property="og:title" content="Printer Laser (Mono/Warna) - ATKMalang">
   <meta property="og:description" content="ATKMalang adalah distributor atk dan toko atk malang terlengkap. Temukan Printer Laser (Mono/Warna) dengan harga terbaik.">
   <meta property="og:image" content="https://atkmalang.web.id/assets/img/logo-atk.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:site_name" content="ATKMalang">
   <meta property="og:locale" content="id_ID">
 
@@ -31,27 +36,55 @@
   <meta name="twitter:description" content="ATKMalang adalah distributor atk dan toko atk malang terlengkap. Temukan Printer Laser (Mono/Warna) dengan harga terbaik.">
   <meta name="twitter:image" content="https://atkmalang.web.id/assets/img/logo-atk.webp">
 
-  <!-- Favicons (Complete) -->
-  <link rel="icon" href="assets/img/favicon-atk.webp" type="image/webp">
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-  <link rel="manifest" href="site.webmanifest">
+  <!-- Favicons -->
+  <link href="assets/img/favicon-atk.webp" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="site.webmanifest" rel="manifest">
+  <meta name="theme-color" content="#20c997">
 
-      <!-- JSON-LD Advanced Schema (LocalBusiness, WebSite, WebPage) -->
+  <!-- Preconnect & DNS-Prefetch for Pagespeed -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="assets/css/main.css" as="style">
+  <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css" as="style">
+
+  <!-- JSON-LD Advanced Schema (Organization, LocalBusiness, WebSite, WebPage, BreadcrumbList) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "LocalBusiness",
+        "@type": "Organization",
         "@id": "https://atkmalang.web.id/#organization",
+        "name": "ATKMalang",
+        "url": "https://atkmalang.web.id/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://atkmalang.web.id/assets/img/logo-atk.webp",
+          "width": 1200,
+          "height": 630
+        },
+        "sameAs": [
+          "https://web.facebook.com/profile.php?id=61580593539769",
+          "https://www.instagram.com/atkmalang",
+          "https://www.tiktok.com/@atkmalang",
+          "https://twitter.com/atkmalang"
+        ]
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://atkmalang.web.id/#localbusiness",
         "name": "ATKMalang",
         "url": "https://atkmalang.web.id/",
         "logo": "https://atkmalang.web.id/assets/img/logo-atk.webp",
         "image": "https://atkmalang.web.id/assets/img/logo-atk.webp",
-        "description": "ATKMalang adalah distributor atk dan toko atk malang terlengkap.",
-        "telephone": "0889-8964-3555",
+        "description": "Distributor alat tulis kantor terlengkap dan termurah di Malang. Kami melayani grosir, eceran, dan pengadaan kontrak supply perusahaan.",
+        "telephone": "+6288989643555",
+        "email": "info@atkmalang.web.id",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Jl. Pasar Besar No. 123",
@@ -73,7 +106,7 @@
             "closes": "17:00"
           }
         ],
-        "priceRange": "$"
+        "priceRange": ""
       },
       {
         "@type": "WebSite",
@@ -83,7 +116,12 @@
         "publisher": {
           "@id": "https://atkmalang.web.id/#organization"
         },
-        "inLanguage": "id-ID"
+        "inLanguage": "id-ID",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://atkmalang.web.id/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       },
       {
         "@type": "WebPage",
@@ -94,26 +132,37 @@
           "@id": "https://atkmalang.web.id/#website"
         },
         "about": {
-          "@id": "https://atkmalang.web.id/#organization"
+          "@id": "https://atkmalang.web.id/#localbusiness"
         },
         "description": "ATKMalang adalah distributor atk dan toko atk malang terlengkap. Temukan Printer Laser (Mono/Warna) dengan harga terbaik.",
         "inLanguage": "id-ID"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://atkmalang.web.id/printer-laser.html#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Beranda",
+            "item": "https://atkmalang.web.id/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Printer Laser (Mono/Warna) - ATKMalang",
+            "item": "https://atkmalang.web.id/printer-laser.html"
+          }
+        ]
       }
     ]
   }
   </script>
 
-  <!-- Preload & Pagespeed Optimization -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" href="assets/css/main.css" as="style">
-  <link rel="preload" href="assets/vendor/bootstrap/css/bootstrap.min.css" as="style">
-
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
+  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -121,6 +170,7 @@
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 </head>
 
@@ -178,7 +228,7 @@
           <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="product-gallery">
               <div class="main-image mb-3 position-relative overflow-hidden rounded-4 shadow-sm group-hover-arrows">
-                <img id="mainProductImage" src="assets/img/produk/Laser_printer_unboxed_near_carton.webp" alt="Printer Laser (Mono/Warna) ATKMalang" class="img-fluid w-100" style="object-fit: cover; aspect-ratio: 4/3; transition: 0.3s ease-in-out;">
+                <img id="mainProductImage" src="assets/img/produk/printer-laser-kantor-siap-digunakan.webp" alt="Printer Laser (Mono/Warna) ATKMalang" class="img-fluid w-100" style="object-fit: cover; aspect-ratio: 4/3; transition: 0.3s ease-in-out;">
                 
                 <div class="position-absolute top-0 end-0 m-3 z-1">
                   <span class="badge bg-primary rounded-pill px-3 py-2 shadow-sm">Garansi Resmi</span>
@@ -187,13 +237,13 @@
 
               <div class="thumbnail-images row g-2">
                 <div class="col-4">
-                  <img src="assets/img/produk/Laser_printer_unboxed_near_carton.webp" alt="Thumbnail 1" class="img-fluid rounded-3 shadow-sm border border-2 border-primary cursor-pointer w-100 gallery-thumb" data-index="0" style="object-fit: cover; aspect-ratio: 4/3; cursor: pointer;" onclick="setMainImage(this, 0)">
+                  <img src="assets/img/produk/printer-laser-kantor-siap-digunakan.webp" alt="Thumbnail 1" class="img-fluid rounded-3 shadow-sm border border-2 border-primary cursor-pointer w-100 gallery-thumb" data-index="0" style="object-fit: cover; aspect-ratio: 4/3; cursor: pointer;" onclick="setMainImage(this, 0)">
                 </div>
                 <div class="col-4">
-                  <img src="assets/img/produk/Opened_cardboard_shipping.webp" alt="Thumbnail 2" class="img-fluid rounded-3 shadow-sm border border-2 border-white cursor-pointer w-100 opacity-75 gallery-thumb" data-index="1" style="object-fit: cover; aspect-ratio: 4/3; cursor: pointer;" onclick="setMainImage(this, 1)">
+                  <img src="assets/img/produk/kotak-kardus-pengiriman-terbuka.webp" alt="Thumbnail 2" class="img-fluid rounded-3 shadow-sm border border-2 border-white cursor-pointer w-100 opacity-75 gallery-thumb" data-index="1" style="object-fit: cover; aspect-ratio: 4/3; cursor: pointer;" onclick="setMainImage(this, 1)">
                 </div>
                 <div class="col-4">
-                  <img src="assets/img/produk/Laser_printer_and_packaging_box.webp" alt="Thumbnail 3" class="img-fluid rounded-3 shadow-sm border border-2 border-white cursor-pointer w-100 opacity-75 gallery-thumb" data-index="2" style="object-fit: cover; aspect-ratio: 4/3; cursor: pointer;" onclick="setMainImage(this, 2)">
+                  <img src="assets/img/produk/printer-laser-kantor-dan-kemasan.webp" alt="Thumbnail 3" class="img-fluid rounded-3 shadow-sm border border-2 border-white cursor-pointer w-100 opacity-75 gallery-thumb" data-index="2" style="object-fit: cover; aspect-ratio: 4/3; cursor: pointer;" onclick="setMainImage(this, 2)">
                 </div>
               </div>
             </div>
